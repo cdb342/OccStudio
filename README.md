@@ -15,9 +15,9 @@ Welcome to **OccStudio**, a unified framework for 3D Occupancy Prediction. This 
 
 The framework is designed to handle both Semantic Occupancy and Occupancy Flow prediction, supporting a wide variety of input modalities, feature encoding methods,  temporal fusion strategies, image backbones, etc. Our goal is to provide a flexible foundation to accelerate research in Spatial Intelligence across academia and industry.
 
----
 
-## 🌟 Highlights
+
+## <a id="highlights"></a>🌟 Highlights
 
 - 🏆 **A Unified Framework**: Provides a common codebase for multiple occupancy prediction methods, including **ALOcc**, **CausalOcc**, **GDFusion**, **BEVDetOcc**, **FB-Occ**, etc.
 - 🔧 **Flexible and Configurable Architecture**: Supports multiple input modalities (e.g., **images**, **depth**), various types of 3D feature encoding (e.g., **Volume-based**, **BEV-based**), different temporal fusion methods (e.g., **SoloFusion**, **GDFusion**), and different image backbones (e.g., **Resnet**, **InterImage**, **Swin-Transformer**), all of which are switchable via configuration.
@@ -25,7 +25,24 @@ The framework is designed to handle both Semantic Occupancy and Occupancy Flow p
 
 ---
 
-## 🛠 Model Zoo
+## 📋 Table of Contents
+
+- [🛠 Model Zoo](#model-zoo)
+- [🚀 Get Started](#get-started)
+  - [1. Installation](#installation)
+  - [2. Data Preparation](#data-preparation)
+  - [3. Pre-trained Models](#pre-trained-models)
+- [🎮 Usage](#usage)
+  - [Training](#training)
+  - [Testing](#testing)
+  - [Benchmarking](#benchmarking)
+  - [Visualization](#visualization)
+- [📊 Main Results](#main-results)
+- [🤝 Contribution](#contribution)
+- [🙏 Acknowledgement](#acknowledgement)
+- [📜 Citation](#citation)
+
+## <a id="model-zoo"></a>🛠 Model Zoo
 
 OccStudio currently supports the following models:
 
@@ -39,7 +56,7 @@ OccStudio currently supports the following models:
 
 ---
 
-## 🚀 Get Started
+## <a id="get-started"></a>🚀 Get Started
 
 ### 1. Installation
 
@@ -140,7 +157,7 @@ For training, please download pre-trained image backbones from [BEVDet GitHub](h
 
 ---
 
-## 🎮 Usage
+## <a id="usage"></a>🎮 Usage
 
 ### Training
 
@@ -216,9 +233,9 @@ python tools/visual.py work_dirs/alocc_3d_256x704_bevdet_preatrain/xxxxxxxx_xxxx
 
 This will launch an interactive Mayavi window where you can inspect and compare the 3D occupancy predictions.
 
-## 📊 Main Results
+## <a id="main-results"></a>📊 Main Results
 
-Here are the performance benchmarks of models implemented in **OccStudio**. The results below are for the `ALOcc` series.
+Here are the performance benchmarks of models implemented in **OccStudio**.
 
 <summary><b>🏆 Performance on nuScenes (Models on Occ3D Are Trained with Camera Visible Mask)</b></summary>
 
@@ -266,13 +283,13 @@ Here are the performance benchmarks of models implemented in **OccStudio**. The 
 
 ---
 
-## 🤝 Contribution
+## <a id="contribution"></a>🤝 Contribution
 
 We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute new models to OccStudio, please feel free to open an issue or submit a pull request.
 
 ---
 
-## 🙏 Acknowledgement
+## <a id="acknowledgement"></a>🙏 Acknowledgement
 
 We gratefully acknowledge the foundational work of many excellent open-source projects, and we would like to extend our special thanks to:
 
@@ -284,7 +301,7 @@ We gratefully acknowledge the foundational work of many excellent open-source pr
 
 ---
 
-## 📜 Citation
+## <a id="citation"></a>📜 Citation
 
 If you find OccStudio useful in your research, please consider citing our relevant papers:
 

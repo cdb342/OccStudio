@@ -161,8 +161,8 @@ def custom_multi_gpu_test(model, data_loader, tmpdir=None, gpu_collect=False):
     time.sleep(2)  # This line can prevent deadlock problem in some cases.
     have_mask = False
     for i, data in enumerate(data_loader):
-        if i>100:
-            break
+        # if i>100:
+        #     break
         with torch.no_grad():
             result = model(return_loss=False, rescale=True, **data)
             # encode mask results
