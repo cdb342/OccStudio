@@ -1,0 +1,13 @@
+ckpts
+data
+configs_uncheck
+work_dir
+work_dir2
+ww
+test
+.dist_test
+mmcv
+mmdet3d.egg-info
+map_dict.py
+hug_load.py
+openocc_training_eval_results

@@ -1,0 +1,4 @@
+# ninja log v5
+10	23866	1726929566108082643	/disk/deepdata/workspace/cdb_workspace/bevdet7/mmdet3d/models/sparseocc/csrc/build/temp.linux-x86_64-3.8/msmv_sampling/msmv_sampling.o	3a56482951e3b21f
+11	38163	1726929580414977578	/disk/deepdata/workspace/cdb_workspace/bevdet7/mmdet3d/models/sparseocc/csrc/build/temp.linux-x86_64-3.8/msmv_sampling/msmv_sampling_forward.o	fb9a0b8e6eeea796
+10	40018	1726929582271539360	/disk/deepdata/workspace/cdb_workspace/bevdet7/mmdet3d/models/sparseocc/csrc/build/temp.linux-x86_64-3.8/msmv_sampling/msmv_sampling_backward.o	7ebdb2121bdabe90

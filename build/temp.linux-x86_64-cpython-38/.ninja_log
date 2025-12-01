@@ -1,0 +1,3 @@
+# ninja log v7
+1	1379	1758549533349502000	/home/yc37439/code/alocc2/build/temp.linux-x86_64-cpython-38/mmdet3d/ops/bev_pool_v2/src/bev_pool_cuda.o	2303dcfe8765f5d
+1	22249	1758549533348505000	/home/yc37439/code/alocc2/build/temp.linux-x86_64-cpython-38/mmdet3d/ops/bev_pool_v2/src/bev_pool.o	40e5912b9acd5294
