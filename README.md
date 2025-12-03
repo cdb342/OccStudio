@@ -285,7 +285,7 @@ Here are the performance benchmarks of models implemented in **OccStudio**.
 
 ## <a id="contribution"></a>🤝 Contribution
 
-We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute new models to OccStudio, please feel free to open an issue or submit a pull request.
+We welcome contributions from the community! If you find a bug, have a feature request, or want to contribute new models/datasets to OccStudio, please feel free to open an issue or submit a pull request. You can also contact Dubing Chen via email (dobbin.chen@gmail.com).
 
 ---
 
