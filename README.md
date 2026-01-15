@@ -88,7 +88,7 @@ pip install mmdet==2.28.2 mmsegmentation==0.30.0
 pip install -v -e .
 
 # Install other dependencies
-pip install torchmetrics timm dcnv4 ninja spconv transformers IPython einops
+pip install torchmetrics timm dcnv4 ninja spconv transformers IPython einops numba
 pip install numpy==1.23.4 # Pin numpy version for compatibility
 
 # (Optional for SparseOcc)
